@@ -27,6 +27,7 @@ public class ClientScoreRanking {
 
         for (int i = 0; i < n - 1; i++) {
             boolean swapped = false;
+            int k;
 
             for (int j = 0; j < n - i - 1; j++) {
                 if (arr[j].riskScore > arr[j + 1].riskScore) {
